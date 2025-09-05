@@ -8,6 +8,18 @@ body {
     background-color: #F9F9F9;
 }
 
+.brain-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.brain {
+  width: 80vw;
+}
+
 .barra-fixa {
     position: fixed;     
     bottom: 0;           
@@ -50,6 +62,14 @@ body {
 }
 
 .carrossel button.ativo {
-    opacity: 1;              /* botão ativo normal */
+    opacity: 1;
     transform: scale(1);
+}
+
+.panel {
+  display: none; 
+}
+
+.panel.ativa {
+  display: block;
 }
